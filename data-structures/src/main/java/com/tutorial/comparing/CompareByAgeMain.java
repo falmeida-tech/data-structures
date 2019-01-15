@@ -10,10 +10,16 @@ public class CompareByAgeMain {
 	public static void main(String args[]) {
 
 		List<Student> list = new ArrayList<Student>();
-		list.add(new Student(101, "Vijay", 23));
-		list.add(new Student(106, "Ajay", 27));
-		list.add(new Student(105, "Jai", 21));
-
+		list.add(new Student(1, "Vijay", 23));
+		list.add(new Student(2, "Ajay", 27));
+		list.add(new Student(3, "Jai", 21));
+		list.add(new Student(4, "Carlos", 20));
+		list.add(new Student(5, "John", 45));
+		list.add(new Student(6, "Ian", 24));
+		list.add(new Student(7, "Rachel", 28));
+		list.add(new Student(8, "Daniel", 35));
+		list.add(new Student(9, "Fabio", 40));
+		
 		System.out.println("Sorting by age");
 
 		Collections.sort(list, new CompareByAge());
