@@ -1,4 +1,4 @@
-package bfs;
+package com.tutorial.bfs;
 
 import java.util.ArrayList;
 import java.util.Collections;
